@@ -1,4 +1,4 @@
-![Simple 0-110V Voltmeter with 4x7-segment LED indication](panel_volt.png)  
+![Simple 0-110V Voltmeter with 4x7-segment LED indication](panel_volt.jpg)  
 
 A simple 0-110V Voltmeter with 4x7-segment LED indication.
 -----------------------------------------------------------------
