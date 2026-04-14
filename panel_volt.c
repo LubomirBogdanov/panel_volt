@@ -19,7 +19,7 @@
 
 // CONFIG2
 #pragma config MCLRE = ON
-#pragma config PWRTE = OFF
+#pragma config PWRTE = ON
 #pragma config LPBOREN = OFF
 #pragma config BOREN = ON
 #pragma config BORV = LOW
@@ -254,10 +254,12 @@ void main(void){
     OSCCON1 = 0x70; //External OSC=4MHz, div=1
     
     i2c_init();
+
+    __delay_ms(100);
     
     vk16k33_init();
 
-    __delay_ms(100);
+    __delay_ms(10);
 
     vk16k33_display_8888();
     
