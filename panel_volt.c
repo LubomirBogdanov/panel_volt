@@ -279,7 +279,7 @@ void main(void){
         
         vk16k33_display_digit(0, digits[0], 0);
         vk16k33_display_digit(1, digits[1], 0);
-        vk16k33_display_digit(2, digits[10], 0);
+        vk16k33_display_digit(2, 10, 0);
         vk16k33_display_digit(3, digits[2], 1);
         vk16k33_display_digit(4, digits[3], 0);                       
     }
